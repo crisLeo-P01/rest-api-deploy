@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "My store",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js"
   },
