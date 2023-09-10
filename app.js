@@ -1,5 +1,5 @@
 import express, { json } from 'express'
-import { moviesRouter } from './routes/movies.js'
+import { moviesRouter } from './routes/movies.routes.js'
 import { corsMiddleware } from './middlewares/cors.js'
 
 const app = express()
