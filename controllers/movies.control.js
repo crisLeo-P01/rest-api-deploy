@@ -1,4 +1,4 @@
-import { MovieModel } from '../models/database/movie.database.js'
+import { MovieModel } from '../models/mongodb/movie.database.js'
 // import { MovieModel } from '../models/local-file-system/movie.model.js'
 import { validateMovie, validatePartialMovie } from '../schemas/movies.schema.js'
 
